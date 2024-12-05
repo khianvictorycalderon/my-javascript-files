@@ -10,3 +10,20 @@ const newProp2 = new Greet("Vlad");
 
 console.log(newProp1.name);
 console.log(newProp2.name);
+
+
+
+// Similar to dynamically creating objects
+class WelcomePeople {
+    constructor(First_Name, Last_Name) {
+        this.firstname = First_Name;
+        this.lastname = Last_Name;
+    }
+
+    Welcome() {
+        return `Welcome ${this.firstname} ${this.lastname}`;
+    }
+}
+
+const RandomPerson = new WelcomePeople("Jake", "Reyes").Welcome();
+console.log(RandomPerson);
