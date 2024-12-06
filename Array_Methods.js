@@ -45,3 +45,9 @@ let someMethod = New_Array.some(item => !isNaN(item)); // Test if some element i
 let someMethodBool = someMethod ? "Some element is a number" : "There is no number element";
 print(someMethodBool);
 line();
+
+// Filter Method
+print("Filter Method: \n");
+New_Array.filter((item, index) => 
+    print("Is array index " + index + " a number? --> " + !isNaN(item))
+); // Return boolean values per array
