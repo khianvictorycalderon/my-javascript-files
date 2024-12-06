@@ -51,3 +51,8 @@ print("Filter Method: \n");
 New_Array.filter((item, index) => 
     print("Is array index " + index + " a number? --> " + !isNaN(item))
 ); // Return boolean values per array
+
+// Reduce Method
+print("Reduce Method: \n")
+let concatenated = New_Array.reduce((accumulator, currentValue) => `${accumulator} ${currentValue}`);
+print(concatenated);
