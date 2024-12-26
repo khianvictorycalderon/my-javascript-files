@@ -1,0 +1,37 @@
+- console.log
+- comments
+- escape sequences
+- 3 ways to declare variables
+- input (prompt only)
+- string concatenation
+- template literals
+- string methods
+- arithmetic operators + modulo
+- assignment operators
+- boolean
+- conditional if statement
+- comparison operator
+- logical operator
+- else if statement
+- nested if statement
+- expession + truthy and falsy values
+- inline comparison and logical operator
+- ternary operator
+- switch case statement
+- for loop
+- array CRUD methods (append, shift, etc...)
+- array iterate methods (map, forEach, etc...)
+- destructuring array
+- while loop
+- nested for + while loop or hybrid of both
+- math methods
+- functions (traditional and expression)
+- function arguments
+- encapsulation
+- error handling (try + except & then.catch.finally)
+- asynchrounous functions
+- IIFE
+- recursion and callstack
+- objects
+- object methods (entries, keys, values)
+- class + this bind
